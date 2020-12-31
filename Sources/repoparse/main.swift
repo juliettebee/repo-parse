@@ -1,9 +1,10 @@
 import Foundation
 
-// Loading repo from arg
+// Getting repo
 if let url = URL(string: "https://repo.packix.com/Packages") {
     do {
         let contents = try String(contentsOf: url)
+   // Running the function 
 var packaages = parseRepo(repo:contents);
 print(packaages.count);
 

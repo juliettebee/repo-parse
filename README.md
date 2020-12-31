@@ -1,3 +1,3 @@
 # repoparse
-
-A description of this package.
+Quickly parse a repo.
+Time it took to parse packix: 0.55s
