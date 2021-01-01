@@ -16,6 +16,7 @@ print(packaages.count);
 }
 
 // Creating a blank struct for package
+// Everything is optional as I don;t know whats required and what isnt so I just made everything optional
 struct Package {
     var id:String?
     var name:String?
@@ -36,7 +37,7 @@ struct Package {
     var MD5sum:String?
     var size:String? 
 }
-// Only parses string as I don't want to include download time
+// Parses repo from input and returrns a list of packages
 func parseRepo(repo: String) -> [Package]{
     // Creating a blank array of packages
     var packages = [Package]();
